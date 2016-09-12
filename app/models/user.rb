@@ -5,6 +5,9 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable,
          :validatable, :confirmable
 
+  has_one :payment
+  accepts_nested_attributes_for :payment
+
   def full_name
     email
   end
