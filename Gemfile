@@ -44,6 +44,9 @@ group :development, :test do
   # Better errors
   gem 'better_errors'
   gem 'binding_of_caller'
+
+  # Environment Variables
+  gem 'dotenv-rails'
 end
 
 group :development do
