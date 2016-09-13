@@ -1,5 +1,5 @@
 class Payment < ActiveRecord::Base
-  attr_accessor :card_number, :card_cvv, :card_expires_month, :card_expirtes_year
+  attr_accessor :card_number, :card_cvv, :card_expires_month, :card_expires_year
 
   belongs_to :user
 
@@ -16,7 +16,7 @@ class Payment < ActiveRecord::Base
 
     Stripe::Charge.create customer: customer.id,
             amount: 1000,
-            desctription: 'Premium',
+            description: 'Premium',
             currency: 'usd'
   end
 end

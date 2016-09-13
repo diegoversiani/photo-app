@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   submitHandler = function(event) {
     var $form = $(event.target);
-    $form.find("input[type=submit").prop("disabled", true);
+    $form.find("input[type=submit]").prop("disabled", true);
 
     // if stripe was initialized correctly this will create a token using the credit card info
     if (Stripe) {
