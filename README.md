@@ -1,6 +1,6 @@
-# Project Manager SaaS
+# Photo Manager App
 
-This is the SaaS Project App from the Complete Ruby on Rails Developer course
+This is the Photo App from the Complete Ruby on Rails Developer course
 
 # Functionalities
 
@@ -37,4 +37,4 @@ User **one_to_one** Payment
 
 # Demo
 
-Running demo at: https://saas-project-app-diegoversiani.herokuapp.com/
+Running demo at: https://photo-app-diegoversiani.herokuapp.com/
